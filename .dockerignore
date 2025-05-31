@@ -1,0 +1,23 @@
+# Git files
+.git
+.gitignore
+.gitattributes
+
+# Maven build output - this will be generated inside the Docker container
+target/
+
+# IDE and editor specific files
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+
+# OS-specific files
+.DS_Store
+
+# Windows Maven wrapper script (not needed in Linux container)
+mvnw.cmd
+
+# Log files
+*.log
